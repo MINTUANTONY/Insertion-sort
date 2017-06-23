@@ -33,6 +33,7 @@ int main()
   printf("Sorted list in ascending order:\n");
  
   for (c = 0; c <=n- 1; c++) {
-    printf("%d\n", array[c]);
+    printf("%d\t", array[c]);
   }
+printf("\n");
 }
